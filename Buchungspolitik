@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buchungspolitik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Sfondo scuro */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="max-w-3xl w-full bg-[#2d3748] rounded-xl shadow-2xl overflow-hidden border-2 border-yellow-500">
+    <div class="px-6 py-8 sm:px-10 sm:py-12">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-100 mb-6 text-center leading-tight">Buchungspolitik</h1>
+
+        <div class="space-y-8">
+            <!-- 1. Buchungen -->
+            <div class="bg-gray-800 p-6 rounded-lg border border-yellow-500">
+                <h2 class="text-xl sm:text-2xl font-semibold text-gray-200 mb-2">1. Buchungen</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Buchungen können über unsere Website, telefonisch oder direkt im Geschäft vorgenommen werden. Es wird empfohlen, im Voraus zu buchen, um die Verfügbarkeit zu gewährleisten.
+                </p>
+            </div>
+
+            <!-- 2. Buchungsbestätigung -->
+            <div class="bg-gray-800 p-6 rounded-lg border border-yellow-500">
+                <h2 class="text-xl sm:text-2xl font-semibold text-gray-200 mb-2">2. Buchungsbestätigung</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Nach der Buchung erhalten Sie eine Bestätigung per E-Mail oder SMS. Bitte überprüfen Sie die Details und kontaktieren Sie uns umgehend, falls Fehler auftreten.
+                </p>
+            </div>
+
+            <!-- 3. Änderungen und Stornierungen -->
+            <div class="bg-gray-800 p-6 rounded-lg border border-yellow-500">
+                <h2 class="text-xl sm:text-2xl font-semibold text-gray-200 mb-2">3. Änderungen und Stornierungen</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Wenn Sie Ihre Buchung ändern oder stornieren müssen, bitten wir Sie, uns mindestens 24 Stunden vor dem geplanten Termin zu informieren.
+                </p>
+            </div>
+
+            <!-- 4. Verspätungen -->
+            <div class="bg-gray-800 p-6 rounded-lg border border-yellow-500">
+                <h2 class="text-xl sm:text-2xl font-semibold text-gray-200 mb-2">4. Verspätungen</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Wir bitten Sie, pünktlich zu erscheinen. Bei Verspätungen werden wir unser Bestes tun, um Sie zu empfangen, können jedoch die Verfügbarkeit des gebuchten Services nicht garantieren.
+                </p>
+            </div>
+
+            <!-- 5. Zahlungen -->
+            <div class="bg-gray-800 p-6 rounded-lg border border-yellow-500">
+                <h2 class="text-xl sm:text-2xl font-semibold text-gray-200 mb-2">5. Zahlungen</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Die Zahlung kann am Ende des Services erfolgen. Wir akzeptieren nur Bargeld.
+                </p>
+            </div>
+
+            <!-- 6. Datenschutz -->
+            <div class="bg-gray-800 p-6 rounded-lg border border-yellow-500">
+                <h2 class="text-xl sm:text-2xl font-semibold text-gray-200 mb-2">6. Datenschutz</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Die während der Buchung bereitgestellten persönlichen Informationen werden gemäß unserer Datenschutzrichtlinie behandelt. Wir werden Ihre Daten nicht ohne Ihre Zustimmung an Dritte weitergeben.
+                </p>
+            </div>
+
+            <!-- 7. Kontakt -->
+            <div class="bg-gray-800 p-6 rounded-lg border border-yellow-500">
+                <h2 class="text-xl sm:text-2xl font-semibold text-gray-200 mb-2">7. Kontakt</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Für weitere Informationen oder Unterstützung bei Ihrer Buchung kontaktieren Sie uns unter <span class="text-yellow-400 font-medium">017645166085</span> oder per E-Mail an <span class="text-yellow-400 font-medium">natladamuk680@gmail.com</span>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
